@@ -116,7 +116,6 @@ class _InformationsCarouselState extends State<InformationsCarousel> {
               aspectRatio: 2.0,
               enlargeCenterPage: false,
               scrollPhysics: BouncingScrollPhysics(),
-              carouselController: _controller,
               enableInfiniteScroll: false,
               viewportFraction: 0.9,
               onPageChanged: (index, reason) {
